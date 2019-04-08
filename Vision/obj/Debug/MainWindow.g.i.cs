@@ -157,6 +157,12 @@ namespace Vision {
             return;
             case 5:
             this.txtRut = ((System.Windows.Controls.TextBox)(target));
+            
+            #line 19 "..\..\MainWindow.xaml"
+            this.txtRut.GotFocus += new System.Windows.RoutedEventHandler(this.txtRut_GotFocus);
+            
+            #line default
+            #line hidden
             return;
             case 6:
             this.txtNombre = ((System.Windows.Controls.TextBox)(target));
